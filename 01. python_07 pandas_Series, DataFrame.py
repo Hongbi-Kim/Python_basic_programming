@@ -8,7 +8,7 @@ Created on Mon Dec 20 13:31:10 2021
 # 07. Pandas _ Series, DataFrame
 import pandas as pd
 from pandas import Series, DataFrame
-from numpy import np
+import numpy as np
 
 # pandas : 2차원 정형데이터(테이블, 표, 데이터프레임)
 # 기본단위 : Series()
