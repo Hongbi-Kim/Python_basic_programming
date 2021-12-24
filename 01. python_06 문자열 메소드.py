@@ -165,7 +165,11 @@ s4.map(lambda x : x[:x.find('@')])
 s4.str.find('@')
 
 s4
-s4.str[0:s4.str.find('@')
+s4.str[0:s4.str.find('@')] 
+# 0   NaN
+# 1   NaN
+# dtype: float64
+
 s4.str[0:s4.str.find('@')[0]]
 s4.str[0:s4.str.find('@')[1]]
 s4.str[0:s4.str.find('@')[1]][0]
