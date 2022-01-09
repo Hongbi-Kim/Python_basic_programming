@@ -42,6 +42,7 @@ import mglearn
 # 시각화 : 1번째, 2번째 컬럼만 선별
 mglearn.discrete_scatter(iris_x_pca2[:,0],iris_x_pca2[:,1]) # 산점도
 mglearn.discrete_scatter(iris_x_pca2[:,0],iris_x_pca2[:,1], y=iris_y)
+# y : input data, discrete labels
 
 # -----------------------------------------------------------------------
 # 5. 3차원으로 축소

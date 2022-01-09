@@ -83,6 +83,7 @@ import matplotlib.pyplot as plt
 
 
 # Bar plot
+plt.style.use('ggplot')
 kimchi = kimchi.pivot_table(index="판매월",columns="제품", values="수량",aggfunc="sum")
 kimchi.plot(kind='bar')
 plt.legend(fontsize=9, loc='best', title='김치별')
