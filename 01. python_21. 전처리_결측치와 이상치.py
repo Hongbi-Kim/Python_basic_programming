@@ -36,7 +36,7 @@ df1 = pd.read_csv('file1.txt')
 # 5  NaN  20  21  22
 
 pd.read_csv('file1.txt',
-            sep='.',         # 필드 구분자
+            sep=',',         # 필드 구분자
             header=None,     # 파일의 첫 줄을 컬럼으로 읽을지 여부
                              # (기본값은 첫줄을 컬럼으로 만들기 때문에 
                              # 첫줄을 컬럼으로 표현하지 않으려면 None 사용)
